@@ -1,0 +1,1 @@
+# Lorcana Sealed Deckbuilding Simulator

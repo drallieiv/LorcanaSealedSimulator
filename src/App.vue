@@ -28,8 +28,8 @@
     }
     getRandomRare() {
       let rarityRatios = {
-        "rare": 7,
-        "super_rare": 3,
+        "rare": 4,
+        "super_rare": 2,
         "legendary": 1 
       };
       let total = rarityRatios.legendary + rarityRatios.super_rare + rarityRatios.rare;
@@ -47,10 +47,10 @@
     }
     getRandomFoil() {
       let rarityRatios = {
-        "common": 40,
-        "uncommon": 20,
-        "rare": 7,
-        "super_rare": 3,
+        "common": 6,
+        "uncommon": 5,
+        "rare": 4,
+        "super_rare": 2,
         "legendary": 1 
       };
       let total = rarityRatios.legendary + rarityRatios.super_rare + rarityRatios.rare + rarityRatios.uncommon  + rarityRatios.common;

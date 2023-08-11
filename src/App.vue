@@ -12,7 +12,7 @@
   const sealedSet: number = 1;
 
   class Card { 
-    constructor(public id: number, public set: number, public data: object) {}
+    constructor(public id: number, public set: number, public data: any) {}
   }
 
   class CardStack {

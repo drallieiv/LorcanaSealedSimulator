@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { computed } from 'vue';
-  const props = defineProps<{ set: number, id: number, data: object, locale?: number, fullView? :boolean}>();
+  const props = defineProps<{ set: number, id: number, data: any, locale?: number, fullView? :boolean}>();
 
   // a computed ref
   const url = computed(() => {

@@ -33,7 +33,7 @@
         "legendary": 1 
       };
       let total = rarityRatios.legendary + rarityRatios.super_rare + rarityRatios.rare;
-      let rand = Math.floor(Math.random() * total);
+      let rand = Math.floor(Math.random() * total) + 1;
 
       let rarityPicked = "rare";
       if(rand > rarityRatios.rare + rarityRatios.super_rare ) {
@@ -54,7 +54,7 @@
         "legendary": 1 
       };
       let total = rarityRatios.legendary + rarityRatios.super_rare + rarityRatios.rare + rarityRatios.uncommon  + rarityRatios.common;
-      let rand = Math.floor(Math.random() * total);
+      let rand = Math.floor(Math.random() * total) + 1;
 
       let rarityPicked = "common";
       if(rand > rarityRatios.super_rare + rarityRatios.rare + rarityRatios.uncommon + rarityRatios.common ) {
